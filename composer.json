@@ -1,0 +1,23 @@
+{
+    "name": "binthec/testpkg",
+    "description": "This is Test Package for Laravel5.5.",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": "~5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Binthec\\TestPkg\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Binthec\\TestPkg\\Provider\\ClapServiceProvider"
+            ]
+        }
+    }
+}
