@@ -4,7 +4,9 @@
     "type": "library",
     "license": "MIT",
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "laravel/framework": "~5.5"
+    },
     "autoload": {
         "psr-4": {
             "Binthec\\TestPkg\\": "src/"
