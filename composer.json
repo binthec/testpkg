@@ -13,7 +13,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Binthec\\TestPkg\\Providers\\ClapServiceProvider"
+                "Binthec\\TestPkg\\Providers\\ClapServiceProvider",
+                "Binthec\\TestPkg\\Providers\\RouteServiceProvider"
             ]
         }
     }
