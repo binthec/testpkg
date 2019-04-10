@@ -10,7 +10,7 @@ namespace Binthec\TestPkg;
 
 use Illuminate\Support\ServiceProvider;
 
-class BaseCmsServiceProvider extends ServiceProvider
+class CmsBaseServiceProvider extends ServiceProvider
 {
 
     /**
